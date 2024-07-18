@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F710C3D2C490B1000EF1FFD /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F710C3C2C490B1000EF1FFD /* WorkoutCardView.swift */; };
+		4F710C412C49204100EF1FFD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F710C402C49204100EF1FFD /* HomeViewModel.swift */; };
 		4FD9B6002C48D6730019F32B /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B5FF2C48D6730019F32B /* FitnessAppApp.swift */; };
 		4FD9B6022C48D6730019F32B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B6012C48D6730019F32B /* ContentView.swift */; };
 		4FD9B6042C48D6760019F32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9B6032C48D6760019F32B /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4F710C3C2C490B1000EF1FFD /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
+		4F710C402C49204100EF1FFD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4FD9B5FC2C48D6730019F32B /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD9B5FF2C48D6730019F32B /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
 		4FD9B6012C48D6730019F32B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4FD9B60F2C48DCF80019F32B /* HomeView.swift */,
+				4F710C402C49204100EF1FFD /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F710C3D2C490B1000EF1FFD /* WorkoutCardView.swift in Sources */,
+				4F710C412C49204100EF1FFD /* HomeViewModel.swift in Sources */,
 				4FD9B6122C48DD660019F32B /* HistoricView.swift in Sources */,
 				4FD9B6142C48E2FF0019F32B /* ProgressCircleView.swift in Sources */,
 				4FD9B60E2C48DC870019F32B /* TabBar.swift in Sources */,

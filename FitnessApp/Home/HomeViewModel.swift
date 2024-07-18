@@ -23,4 +23,5 @@ class HomeViewModel: ObservableObject {
                                Workout(id: 2, image: "figure.run", tintColor: .blue, title: "Running", duration: "10 min", date: "Aug 4", calories: "50 kcal"),
                                Workout(id: 3, image: "figure.run", tintColor: .purple, title: "Running", duration: "18 min", date: "Aug 4", calories: "90 kcal"),
                                Workout(id: 4, image: "figure.run", tintColor: .yellow, title: "Running", duration: "34 min", date: "Aug 4", calories: "67 kcal")]
+    
 }
