@@ -15,6 +15,7 @@
 		4FD9B6102C48DCF80019F32B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B60F2C48DCF80019F32B /* HomeView.swift */; };
 		4FD9B6122C48DD660019F32B /* HistoricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B6112C48DD660019F32B /* HistoricView.swift */; };
 		4FD9B6142C48E2FF0019F32B /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B6132C48E2FF0019F32B /* ProgressCircleView.swift */; };
+		4FD9B61A2C48E9550019F32B /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B6192C48E9550019F32B /* ActivityCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4FD9B60F2C48DCF80019F32B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4FD9B6112C48DD660019F32B /* HistoricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricView.swift; sourceTree = "<group>"; };
 		4FD9B6132C48E2FF0019F32B /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		4FD9B6192C48E9550019F32B /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +61,14 @@
 		4FD9B5FE2C48D6730019F32B /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				4FD9B6172C48E9190019F32B /* UIComponents */,
+				4FD9B6152C48E8EE0019F32B /* Tab Bar */,
+				4FD9B6162C48E8F90019F32B /* Home */,
+				4FD9B6182C48E9290019F32B /* Historic */,
 				4FD9B5FF2C48D6730019F32B /* FitnessAppApp.swift */,
-				4FD9B60D2C48DC870019F32B /* TabBar.swift */,
-				4FD9B60F2C48DCF80019F32B /* HomeView.swift */,
 				4FD9B6012C48D6730019F32B /* ContentView.swift */,
 				4FD9B6032C48D6760019F32B /* Assets.xcassets */,
 				4FD9B6052C48D6760019F32B /* Preview Content */,
-				4FD9B6112C48DD660019F32B /* HistoricView.swift */,
-				4FD9B6132C48E2FF0019F32B /* ProgressCircleView.swift */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -77,6 +79,39 @@
 				4FD9B6062C48D6760019F32B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FD9B6152C48E8EE0019F32B /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B60D2C48DC870019F32B /* TabBar.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		4FD9B6162C48E8F90019F32B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B60F2C48DCF80019F32B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FD9B6172C48E9190019F32B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B6132C48E2FF0019F32B /* ProgressCircleView.swift */,
+				4FD9B6192C48E9550019F32B /* ActivityCardView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		4FD9B6182C48E9290019F32B /* Historic */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B6112C48DD660019F32B /* HistoricView.swift */,
+			);
+			path = Historic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +187,7 @@
 				4FD9B6122C48DD660019F32B /* HistoricView.swift in Sources */,
 				4FD9B6142C48E2FF0019F32B /* ProgressCircleView.swift in Sources */,
 				4FD9B60E2C48DC870019F32B /* TabBar.swift in Sources */,
+				4FD9B61A2C48E9550019F32B /* ActivityCardView.swift in Sources */,
 				4FD9B6102C48DCF80019F32B /* HomeView.swift in Sources */,
 				4FD9B6022C48D6730019F32B /* ContentView.swift in Sources */,
 				4FD9B6002C48D6730019F32B /* FitnessAppApp.swift in Sources */,

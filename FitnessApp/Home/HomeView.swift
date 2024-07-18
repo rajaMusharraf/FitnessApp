@@ -13,9 +13,14 @@ struct HomeView: View {
     @State var active: Int = 52
     @State var stand: Int = 8
     
+    var activities: [Activity] = [ Activity(id: 0, title: "Today Steps", subtitle: "Goal 12,000", image: "figure.walk", tintColor: .green, ammount: "9821"),
+                                   Activity(id: 1, title: "Today Steps", subtitle: "Goal 1000", image: "figure.walk", tintColor: .red, ammount: "9821"),
+                                   Activity(id: 2, title: "Today Steps", subtitle: "Goal 9000", image: "figure.walk", tintColor: .blue, ammount: "9821"),
+                                   Activity(id: 3, title: "Today Steps", subtitle: "Goal 5000", image: "figure.walk", tintColor: .purple, ammount: "9821")
+    ]
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Welcome")
                     .font(.largeTitle)
                     .bold()
@@ -77,6 +82,31 @@ struct HomeView: View {
                     Spacer()
                 }
                 .padding()
+                
+                HStack {
+                    Text("Fitness Activity")
+                    
+                    Spacer()
+                    
+                    Button {
+                        print("Button Pressed")
+                    } label: {
+                        Text("Show more")
+                    }
+                    .foregroundColor(.white)
+                    .padding(.all, 10)
+                    .background(.blue)
+                    .cornerRadius(20)
+
+                }
+                .padding(.horizontal)
+                
+                LazyVGrid(columns: Array(repeating: GridItem(spacing: 20), count: 2)) {
+                    ForEach(activities, id: \.id) { activity in
+                        ActivityCardView(activity: activity)
+                    }
+                }
+                .padding(.horizontal)
             }
         }
     }
